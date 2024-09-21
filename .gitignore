@@ -1,0 +1,7 @@
+__pycache__/
+.idea/
+*.csv
+*.log-model.history
+*.pkl
+mlartifacts/
+mlruns/

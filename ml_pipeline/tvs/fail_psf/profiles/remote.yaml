@@ -1,0 +1,10 @@
+EXPERIMENT:
+  product_name: 'TEST_PRODUCT'
+  name: "fail_psf"
+  tracking_uri: "https://mlflow.moonkbr.fr/"
+
+
+TARGET_COL: "fail_/_psf"
+
+
+

@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ml-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["jalal <jalalkhaldi3@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.3"
+ml-easy = "0.0.3"
+
+
+[tool.poetry.group.test_dep.dependencies]
+pytest = "^8.3.2"
+
+
+[tool.poetry.group.format_and_typing_dep.dependencies]
+black = "^24.8.0"
+mypy = "^1.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+

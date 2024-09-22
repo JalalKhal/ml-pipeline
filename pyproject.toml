@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.12.3"
-ml-easy = "0.0.3"
+ml-easy = "0.0.2"
 
 
 [tool.poetry.group.test_dep.dependencies]

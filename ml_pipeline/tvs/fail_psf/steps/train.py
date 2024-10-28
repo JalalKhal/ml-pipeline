@@ -1,8 +1,8 @@
 """
-This module defines the following routines used by the 'train' step of the regression recipe:
+This module defines the following routines used by the 'train' step of the recipe:
 
 - ``estimator_fn``: Defines the customizable estimator type and parameters that are used
-  during training to produce a model recipe.
+  during training to produce a model.
 """
 
 from ml_easy.recipes.classification.v1.config import ClassificationTrainConfig

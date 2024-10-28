@@ -1,8 +1,6 @@
 ﻿"""
 This module defines the following routines used by the 'ingest' step of the regression recipe:
 
-- ``load_file_as_dataframe``: Defines customizable logic for parsing dataset formats that are not
-  natively parsed by MLflow Recipes (i.e. formats other than Parquet, Delta, and Spark SQL).
 """
 
 from ml_easy.recipes.classification.v1.config import ClassificationIngestConfig

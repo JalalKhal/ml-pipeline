@@ -1,5 +1,5 @@
 """
-This module defines the following routines used by the 'transform' step of the regression recipe:
+This module defines the following routines used by the 'transform' step of the recipe:
 
 - ``transformer_fn``: Defines customizable logic for transforming input data before it is passed
   to the estimator during model inference.

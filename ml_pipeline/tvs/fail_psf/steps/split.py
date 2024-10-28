@@ -1,5 +1,5 @@
 """
-This module defines the following routines used by the 'split' step of the regression recipe:
+This module defines the following routines used by the 'split' step of the recipe:
 """
 
 from ml_easy.recipes.classification.v1.config import ClassificationSplitConfig

@@ -1,5 +1,5 @@
 ﻿"""
-This module defines the following routines used by the 'ingest' step of the regression recipe:
+This module defines the following routines used by the 'ingest' step of the recipe:
 
 """
 

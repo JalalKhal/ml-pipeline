@@ -13,8 +13,6 @@ from ml_easy.recipes.steps.train.models import Model, ScikitModel
 def estimator_fn(conf: ClassificationTrainConfig, context: Context) -> Model:
     """
     Returns an *unfitted* estimator that defines ``fit()`` and ``predict()`` methods.
-    The estimator's input and output signatures should be compatible with scikit-learn
-    estimators.
     """
     path = 'sklearn.linear_model.LogisticRegression'
     estimator: ScikitModel = ScikitModel.load_from_library(path, {'max_iter': 3000})
